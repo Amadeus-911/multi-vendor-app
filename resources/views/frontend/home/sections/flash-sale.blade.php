@@ -1,3 +1,4 @@
+@if(isset($flashSaleDate))
 <section id="wsus__flash_sell" class="wsus__flash_sell_2">
     <div class=" container">
         <div class="row">
@@ -219,6 +220,7 @@
     PRODUCT MODAL VIEW END
 ===========================-->
 
+
 @push('scripts')
 <script>
     $(document).ready(function(){
@@ -230,3 +232,4 @@
     })
 </script>
 @endpush
+@endif
